@@ -1,0 +1,182 @@
+body{
+    background: url('../images/back.jpg');
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    text-align: center;
+    color: steelblue;
+    text-decoration: underline;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.img-area{
+    margin: 0 auto;
+    width:100%;
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.images{
+    height:200px;
+    margin: 10px;
+}
+
+.image1{ /* Apple */
+    border: 4px solid steelblue;
+    order: 2;  
+}
+
+.image2{ /* Banana */
+    border: 4px dashed steelblue;
+    order: 4;
+}
+
+.image3{ /* Grape */
+    border: 4px solid steelblue;
+    order: 3;
+}
+
+.image4{ /* Orange */
+    border: 4px solid steelblue;
+    order: 6;
+}
+
+.image5{ /* Pineapple */
+    border: 4px dashed steelblue;
+    order: 5;
+}
+
+.image6{ /* Watermelon */
+    border: 4px solid steelblue;
+    order: 1;
+}
+
+.image7{ /*Peach*/
+    border: 4px solid steelblue;
+    order: 7;
+}
+
+
+img:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.container{
+    background-color: white;
+    height: 300px;
+    margin: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container-item{
+    background: green;
+    color: white;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 7.0%;
+    line-height: 50px;
+    margin: 10px;
+}
+
+.item1{
+    flex-grow: 1;
+    flex-shrink: 2;
+    flex-basis: 100;
+    align-self: flex-start;
+}
+
+.item2{
+    flex-grow: 1;
+    flex-shrink: 3;
+    align-self: center;
+}
+
+.item3{
+    flex-grow: 1;
+    flex-basis: 100px;
+    align-self: flex-end
+}
+
+.item4{
+    flex-grow: 1;
+    flex-basis: 100px;
+    align-self: center;
+}
+
+.item5{
+    flex-grow: 1;
+    flex-basis: 100px;   
+    align-self: flex-start; 
+}
+
+.grid-container{
+    background-color: rgb(121, 242, 170);
+    margin: 10%;
+    height: 300px;
+    
+    display: grid;
+    grid-template-columns: 10px 50px 50px 50px 10px;
+}
+
+.grid-item{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 70%;
+    line-height: 40px;
+    margin: 10px;
+}
+
+#footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    margin: 7px;    
+    border: 3px red dashed;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 18px;
+}
+
+.visit-us-button{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 30px;
+    padding-bottom: 20px;
+}
+
+.visit-us{
+    color: purple;
+    position: fixed;
+    border: 3px red solid;
+    font-size: 20px;
+    padding: 2px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+}
+
+.visit-us:hover{
+    color: green;
+}
+
+.note-main{
+    color: black;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 24px;
+    border-bottom: steelblue 3px dotted;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
